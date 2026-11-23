@@ -1,4 +1,4 @@
-# reputemap-com
+# ReputeMap
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-reputemap-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://reputemap.com/
+ReputeMap provides a multi-location Google review management platform that helps businesses and agencies collect, monitor, and respond to Google reviews across many locations. It offers tools such as review request generators, AI‑drafted reply assistants, alert notifications via SMS/WhatsApp, white‑label reporting, and a review inbox dashboard. Plans start at $19/mo with a 14‑day free trial, and the service includes a free Review Growth Kit with templates and scripts.
+
+**Areas:** Review Management · Google Reviews · SaaS · Multi-location · Agency
+
+## ReputeMap on APIs.io
+
+Everything profiled for ReputeMap is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/reputemap-com/](https://apis.io/providers/reputemap-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [ReputeMap API](https://apis.io/apis/reputemap-com/reputemap-api/) — API for managing reviews, inbox, and white‑label reporting.
+- [ReputeMap API](https://apis.io/apis/reputemap-com/reputemap-com-api/) — ReputeMap API as documented publicly: 9 operations. Contract generated from the documentation by API Evangelist (2026-11-23); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [GetApiV1LocationsResponse](https://apis.io/schemas/reputemap-com/reputemap-com-get-api-v1-locations-response/)
+- [GetApiV1StatsResponse](https://apis.io/schemas/reputemap-com/reputemap-com-get-api-v1-stats-response/)
+- [GetApiV1UsageResponse](https://apis.io/schemas/reputemap-com/reputemap-com-get-api-v1-usage-response/)
+- [GetV4AccountsAccountidLocationsLocationidReviewsResponse](https://apis.io/schemas/reputemap-com/reputemap-com-get-v4-accounts-accountid-locations-locationid-reviews-response/)
+- [PostApiV1ReviewRequestsRequest](https://apis.io/schemas/reputemap-com/reputemap-com-post-api-v1-review-requests-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Reputemap Com Context](https://apis.io/jsonld/reputemap-com/reputemap-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ReputeMap API Rules](https://apis.io/rules/reputemap-com/reputemap-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [ReputeMap Authentication](https://apis.io/security/reputemap-com/reputemap-com-authentication/)
+- [ReputeMap Domain Security](https://apis.io/security/reputemap-com/reputemap-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [ReputeMap Plans Pricing](https://apis.io/plans/reputemap-com/reputemap-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://reputemap.com/)
+- [Documentation](https://reputemap.com/docs)
+- [Getting started](https://reputemap.com/docs/mcp)
+- [API reference](https://reputemap.com/docs)
+- [Pricing](https://reputemap.com/pricing)
+- [Changelog](https://reputemap.com/changelog)
+- [Terms of service](https://reputemap.com/terms)
+- [Privacy policy](https://reputemap.com/privacy)
+- [GitHub](https://github.com/reputemap-com)
+
+## API Evangelist rating
+
+**Kin Score 55.9** — strong · rubric 0.27.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 55.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 73.2 |
+
+**Agent readiness 36.1** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/reputemap-com/](https://apis.io/providers/reputemap-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ReputeMap: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/reputemap-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
